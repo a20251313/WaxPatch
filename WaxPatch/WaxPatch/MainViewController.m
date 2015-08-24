@@ -14,6 +14,12 @@
 
 @implementation MainViewController
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 10;
 }
