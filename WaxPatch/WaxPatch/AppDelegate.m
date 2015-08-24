@@ -12,7 +12,8 @@
 #import "ZipArchive.h"
 #import "MainViewController.h"
 
-#define WAX_PATCH_URL @"http://raw.github.com/mmin18/WaxPatch/master/patch/patch.zip"
+//https://github.com/a20251313/WaxPatch/raw/master/patch.zip
+#define WAX_PATCH_URL @"https://github.com/a20251313/WaxPatch/raw/master/patch.zip"
 
 @implementation AppDelegate
 
